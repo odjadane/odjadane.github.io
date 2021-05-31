@@ -1,0 +1,125 @@
+html{color:#000}blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}q:after,q:before{content:""}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,select,textarea{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+body {
+  background-color: #fefefe;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  font-size: 1.1em
+}
+
+.title{
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  background-color: #333;
+}
+
+.title h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3em;
+  margin: 0;
+}
+
+.title h2{
+  font-size: 1.1em;
+}
+
+#container {
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em
+}
+
+section h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: .5em;
+  padding-bottom: .1em;
+  border-bottom: 1px solid #ccc
+}
+
+.block-element{
+  margin-bottom: 2em;
+}
+
+.block-element header {
+  margin: .25em;
+  display: flex;
+  flex-direction: row;
+}
+
+.block-element header h2{
+  flex-grow: 1;
+  font-size: 2.5em;
+}
+
+.block-element header a:hover{
+  background-color: silver
+}
+
+.block-element header a{
+  text-decoration: none;
+  background-color: #dcdcdc;
+  color: #333;
+  padding: 0.1em 0.5em;
+  margin: 0.1em;
+  font-size: 2em;
+}
+
+.block-element article {
+  border-left: .2em solid;
+  padding-left: .5em;
+  margin: .5em
+}
+
+.block-element article p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: .2em 0
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0.2em 0em;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #DCDCDC;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: silver;
+}
+
+@media screen and (min-device-width:700px) {
+  body {
+    max-width: 800px
+  }
+  h1 {
+    font-size: 2em
+  }
+  .block-element header h2 {
+    font-size: 1.25em;
+  }
+  .block-element header a{
+    font-size: 1.1em;
+  }
+}
