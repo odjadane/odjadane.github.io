@@ -54,11 +54,12 @@ section h1 {
   margin: .25em;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .block-element header h2{
   flex-grow: 1;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .block-element header a:hover{
@@ -66,6 +67,8 @@ section h1 {
 }
 
 .block-element header a{
+  flex-shrink: 0;
+  height: auto;
   text-decoration: none;
   background-color: #dcdcdc;
   color: #333;
