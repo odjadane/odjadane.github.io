@@ -1,177 +1,342 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>O. DJADANE</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="title">
-    <h1>O. DJADANE</h1>
-    <h2>Etudiant en EEA</h2>
-  </div>
-  <div id="container">
-    <section>
-      <div class="block-element">
-        <article style="border: none;">
-          <p>Bonjour,</p>
-          <p>Je suis étudiant en Licence 3 EEA (Électronique, Électrotechnique et Automatique) à l'UPJV d'Amiens.</p>
-          <p>
-            Je m'intéresse particulièrement à l'automatique et ses applications sur les véhicules et les robots mobiles, mais aussi à la programmation des systèmes embarqués.
-          </p>
-          <p>
-            Je suis en constante recherche de nouvelles connaissances à apprendre à travers la réalisation de projets personnels et de stages en entreprises.
-          </p>
-          <p>
-            J'ai mis en ligne cette page pour présenter quelques petits projets que j'ai réalisés dans le cadre de ma formation ou durant mon temps libre.
-          </p>
-          <p>
-            Si mon profil vous intéresse, n'hésitez pas à me contacter via le formulaire en bas de page.
-          </p>
-        </article>
-      </div>
-    </section>
-    
-    <section>
-      <h1>Maquettes</h1>
-      <div class="block-element">
-        <header>
-          <h2>Robot suiveur de ligne « intelligent »</h2>
-          <a href="https://www.youtube.com/watch?v=qXxMXaPvj-s">Voir sur Youtube</a>
-        </span>
-        </header>
-        <article>
-          <p>Réalisation et programmation d'une carte de commande pour un robot mobile afin qu'il suive une piste, détecte les obstacles et soit commandable à distance.</p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>Système automatique de tri par couleur</h2>
-          <a href="https://www.youtube.com/watch?v=zY71AqqvUx8">Voir sur Youtube</a>
-        </span>
-        </header>
-        <article>
-          <p>Etude et réalisation d'un prototype de machine de tri par couleur qui s'approche au mieux de ce qui se fait en industrie (agro-alimentaire, recyclage...)</p>
-        </article>
-      </div>
-    </section>
-    
-    <section>
-      <h1>Automatisme</h1>
-      <div class="block-element">
-        <header>
-          <h2>Pupitres opérateurs</h2>
-          <a href="https://www.youtube.com/playlist?list=PLtuQRTdi_pGm9uHDibdcFC5jAG7ptoQEf">Voir sur Youtube</a>
-        </header>
-        <article>
-          <p>Interfaces conçues sous SIMATIC WinCC pour IHM de la marque Siemens, pour deux systèmes automatisés étudiés en cours : pesage à chariot et dégraissage de pièces.</p>
-        </article>
-      </div>
-    </section>
-    
-    <section>
-      <h1>Applications C++</h1>
-      <div class="block-element">
-        <header>
-          <h2>qt-pid-scope</h2>
-          <a href="https://github.com/odjadane/qt-pid-scope">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Cette interface graphique permet de simplifier processus de réglage d'un correcteur PID, en traçant, en temps réel, les courbes de la consigne et de la sortie.</p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>qt-odometry</h2>
-          <a href="https://github.com/odjadane/qt-odometry">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Développée pour le projet du robot suiveur de ligne, cette interface graphique permet de calculer la pose du robot puis de la représenter sur un repère centré sur la position de départ. </p>
-        </article>
-      </div>
-    </section>
 
-    <section>
-      <h1>Applications Python</h1>
-      <div class="block-element">
-        <header>
-          <h2>control-theory-plot</h2>
-          <a href="https://github.com/odjadane/control-theory-plot">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Interface graphique générant les graphes usuels en asservissement continu (réponse indicielle, digramme de Bode, Lieu d'Evans et Lieu de Nyquist). </p>
-          <p>
-            La fonction de transfert est entrée soit sous la forme num/den ou bien la forme zpk.
-            La boucle fermée peut être régulée par un gain, un PID ou un avance-retard de phase.
-          </p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>industrial-networks</h2>
-          <a href="https://github.com/odjadane/industrial-networks">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Quatre scripts simulant le fonctionnement des différents protocoles de communication industriels vus en cours (série, TCP/IP, CAN et Modbus).</p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>numerical-methods</h2>
-          <a href="http://github.com/odjadane/numerical-methods">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Quatre scripts implémentant les méthodes numériques de base vues en cours d'analyse numérique (équations non linéaires, interpolation polynômiale, équations différentielles, systèmes linéaires).</p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>serial-communication-diagram</h2>
-          <a href="http://github.com/odjadane/serial-communication-diagram">Voir sur Github</a>
-        </header>
-        <article>
-          <p>Interface graphique générant  l'oscillogramme d'une communication série asynchrone transmettant un caractère, selon les propriétés de la trame choisies par l'utilisateur.</p>
-          <p>J'ai écrit ce programme pour me faciliter le débogage du port série d'un microcontrôleur.</p>
-        </article>
-      </div>
-    </section>
-    
-    <section>
-      <h1>Applications web</h1>
-      <div class="block-element">
-        <header>
-          <h2>control-theory-plot-online</h2>
-          <a href="webapps/control-theory-plot-online/">Lancer l'application</a>
-        </header>
-        <article>
-          <p>
-            Une application web permettant de tracer la réponse indicielle et le diagramme de Bode d'un système linéaire à partir de sa fonction de transfert saisie sous la forme num/den.
-          </p>
-        </article>
-      </div>
-      <div class="block-element">
-        <header>
-          <h2>serial-communication-diagram-online</h2>
-          <a href="webapps/serial-communication-diagram-online/">Lancer l'application</a>
-        </header>
-        <article>
-          <p>
-            Une application web permettant de tracer l'oscillogramme d'une communication série asynchrone qui transmet un caractère ASCII préalablement spécifié.
-          </p>
-        </article>
-      </div>
-    </section>
+  <!-- English version -->
+  <div id="page-en">
+    <div class="title">
+      <h1>O. DJADANE</h1>
+      <h2>Electrical engineering student</h2>
+    </div>
+    <div class="container">
+      <section>
+        <div class="block-element block-language">
+          <button class="button-switch-to-english">English</button>
+          <button class="button-switch-to-french">Français</button>
+        </div>
+      </section>
 
-    <section>
-      <h1>Formulaire de contact</h1>
-      <form action="https://formspree.io/f/mbjpowen" method="POST">
-        <input class="input" type="text" name="name" placeholder="Nom" required >
-        <input class="input" type="email" name="_replyto" placeholder="Mail" required>       
-        <textarea name="message" rows="5" placeholder="Message" required></textarea>
-        <input type="submit" value="Envoyer">
-      </form>
-    </section>
-    </form>
+      <section>
+        <div class="block-element">
+          <article style="border: none;">
+            <p>Hi,</p>
+            <p>I am an undergraduate electrical engineering student at the University of Picardy in France.</p>
+            <p>I am mostly interested in control theory and its applications in vehicles and mobile robotics but also in embedded systems programming.</p>
+            <p>I am constantly seeking out new knowledge through the realization of personal projects and doing internships at companies or research labs.</p>
+            <p>I have published this page online to present some projects that I carried out as part of my curriculum or during my free time.</p>
+            <p>If my profile interests you, do not hesitate to contact me using the form at the bottom of this page.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Models</h1>
+        <div class="block-element">
+          <header>
+            <h2>Line follower robot</h2>
+            <a href="https://www.youtube.com/watch?v=qXxMXaPvj-s">View on Youtube</a>
+          </span>
+          </header>
+          <article>
+            <p>Designing and programming of an electronic control card for a mobile robot so that it follows a track, detects obstacles and can be controlled remotely.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>Automatic color sorting system</h2>
+            <a href="https://www.youtube.com/watch?v=zY71AqqvUx8">View on Youtube</a>
+          </span>
+          </header>
+          <article>
+            <p>Designing and programming a prototype of a color sorting machine to mimics the same type of machines used in food or recycling industries.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>PLC</h1>
+        <div class="block-element">
+          <header>
+            <h2>Operator desks</h2>
+            <a href="https://www.youtube.com/playlist?list=PLtuQRTdi_pGm9uHDibdcFC5jAG7ptoQEf">View on Youtube</a>
+          </header>
+          <article>
+            <p>UI designed under SIMATIC WinCC for Siemens HMI, for two automated systems studied during the course I had on PLC: cart weighing and parts degreasing.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Software in C++</h1>
+        <div class="block-element">
+          <header>
+            <h2>qt-pid-scope</h2>
+            <a href="https://github.com/odjadane/qt-pid-scope">View on Github</a>
+          </header>
+          <article>
+            <p>A graphical interface that eases the tuning process of a PID corrector by plotting, in real time, the curves of the reference signal and the output signal.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>qt-odometry</h2>
+            <a href="https://github.com/odjadane/qt-odometry">View on Github</a>
+          </header>
+          <article>
+            <p>Developed for the line follower robot project, this graphical interface makes it possible to compute the robot's pose and then to represent it on a frame centered on its starting position.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h1>Software in Python</h1>
+        <div class="block-element">
+          <header>
+            <h2>control-theory-plot</h2>
+            <a href="https://github.com/odjadane/control-theory-plot">View on Github</a>
+          </header>
+          <article>
+            <p>Graphical interface for plotting the usual graphs in control theory (step response, Bode plot, Root Locus and Nyquist plot).</p>
+            <p>The transfer function can be either in the num/den format or in the zpk format.
+              The closed-loop can be compensated with either a gain, a PID or even a lag-lead.
+            </p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>industrial-networks</h2>
+            <a href="https://github.com/odjadane/industrial-networks">View on Github</a>
+          </header>
+          <article>
+            <p>A collection of four scripts emulating some communication protocols used in automation industry: Serial, TCP/IP, CAN and Modbus (done during a practical class).</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>numerical-methods</h2>
+            <a href="http://github.com/odjadane/numerical-methods">View on Github</a>
+          </header>
+          <article>
+            <p>A collection of four scripts implementing the most basic numerical methods: nonlinear equations, polynomial interpolation, ordinary differential equation,  and stationary iterative methods (done during a practical class).</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>serial-communication-diagram</h2>
+            <a href="http://github.com/odjadane/serial-communication-diagram">View on Github</a>
+          </header>
+          <article>
+            <p>Graphical interface for plotting the timing diagram of an asynchronous serial communication sending a specified ASCII character.</p>
+            <p>I wrote this program to make it easier for me to debug the serial port of a microcontroller.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Web applications</h1>
+        <div class="block-element">
+          <header>
+            <h2>control-theory-plot-online</h2>
+            <a href="webapps/control-theory-plot-online/">Launch the app</a>
+          </header>
+          <article>
+            <p>A web application for plotting the step response and the Bode plot of a linear system from its transfer function entered in the num/den format.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>serial-communication-diagram-online</h2>
+            <a href="webapps/serial-communication-diagram-online/">Launch the app</a>
+          </header>
+          <article>
+            <p>A web application for plotting the oscillogram of an asynchronous serial communication which transmits the specified ASCII character.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="block-element block-form">
+          <h1>Contact form</h1>
+          <form action="https://formspree.io/f/mbjpowen" method="POST">
+            <input class="input" type="text" name="name" placeholder="Name" required >
+            <input class="input" type="email" name="_replyto" placeholder="E-mail" required>       
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </section>
+    </div>
   </div>
+
+  <!-- French version -->
+  <div id="page-fr" style="display:none;">
+    <div class="title">
+      <h1>O. DJADANE</h1>
+      <h2>Etudiant en EEA</h2>
+    </div>
+    <div class="container">
+      <section>
+        <div class="block-element block-language">
+          <button class="button-switch-to-english">English</button>
+          <button class="button-switch-to-french">Français</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="block-element">
+          <article style="border: none;">
+            <p>Bonjour,</p>
+            <p>Je suis étudiant en Licence 3 EEA (Électronique, Électrotechnique et Automatique) à l'UPJV d'Amiens.</p>
+            <p>Je m'intéresse particulièrement à l'automatique et ses applications sur les véhicules et les robots mobiles, mais aussi à la programmation des systèmes embarqués.</p>
+            <p>Je suis en constante recherche de nouvelles connaissances à apprendre à travers la réalisation de projets personnels et de stages en entreprises ou en laboratoires de recherche.</p>
+            <p>J'ai mis en ligne cette page pour présenter quelques petits projets que j'ai réalisés dans le cadre de ma formation ou durant mon temps libre.</p>
+            <p>Si mon profil vous intéresse, n'hésitez pas à me contacter via le formulaire en bas de page.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Maquettes</h1>
+        <div class="block-element">
+          <header>
+            <h2>Robot suiveur de ligne « intelligent »</h2>
+            <a href="https://www.youtube.com/watch?v=qXxMXaPvj-s">Voir sur Youtube</a>
+          </span>
+          </header>
+          <article>
+            <p>Réalisation et programmation d'une carte de commande pour un robot mobile afin qu'il suive une piste, détecte les obstacles et soit commandable à distance.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>Système automatique de tri par couleur</h2>
+            <a href="https://www.youtube.com/watch?v=zY71AqqvUx8">Voir sur Youtube</a>
+          </span>
+          </header>
+          <article>
+            <p>Etude et réalisation d'un prototype de machine de tri par couleur qui s'approche au mieux de ce qui se fait en industrie (agro-alimentaire, recyclage...)</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Automatisme</h1>
+        <div class="block-element">
+          <header>
+            <h2>Pupitres opérateurs</h2>
+            <a href="https://www.youtube.com/playlist?list=PLtuQRTdi_pGm9uHDibdcFC5jAG7ptoQEf">Voir sur Youtube</a>
+          </header>
+          <article>
+            <p>Interfaces conçues sous SIMATIC WinCC pour IHM de la marque Siemens, pour deux systèmes automatisés étudiés en cours : pesage à chariot et dégraissage de pièces.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Applications C++</h1>
+        <div class="block-element">
+          <header>
+            <h2>qt-pid-scope</h2>
+            <a href="https://github.com/odjadane/qt-pid-scope">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Cette interface graphique permet de simplifier processus de réglage d'un correcteur PID, en traçant, en temps réel, les courbes de la consigne et de la sortie.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>qt-odometry</h2>
+            <a href="https://github.com/odjadane/qt-odometry">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Développée pour le projet du robot suiveur de ligne, cette interface graphique permet de calculer la pose du robot puis de la représenter sur un repère centré sur la position de départ. </p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h1>Applications Python</h1>
+        <div class="block-element">
+          <header>
+            <h2>control-theory-plot</h2>
+            <a href="https://github.com/odjadane/control-theory-plot">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Interface graphique générant les graphes usuels en asservissement continu (réponse indicielle, digramme de Bode, Lieu d'Evans et Lieu de Nyquist). </p>
+            <p>La fonction de transfert est entrée soit sous la forme num/den ou bien la forme zpk. La boucle fermée peut être régulée par un gain, un PID ou un avance-retard de phase.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>industrial-networks</h2>
+            <a href="https://github.com/odjadane/industrial-networks">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Quatre scripts simulant le fonctionnement des différents protocoles de communication industriels vus en cours (série, TCP/IP, CAN et Modbus).</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>numerical-methods</h2>
+            <a href="http://github.com/odjadane/numerical-methods">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Quatre scripts implémentant les méthodes numériques de base vues en cours d'analyse numérique (équations non linéaires, interpolation polynômiale, équations différentielles, systèmes linéaires).</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>serial-communication-diagram</h2>
+            <a href="http://github.com/odjadane/serial-communication-diagram">Voir sur Github</a>
+          </header>
+          <article>
+            <p>Interface graphique générant  l'oscillogramme d'une communication série asynchrone transmettant un caractère, selon les propriétés de la trame choisies par l'utilisateur.</p>
+            <p>J'ai écrit ce programme pour me faciliter le débogage du port série d'un microcontrôleur.</p>
+          </article>
+        </div>
+      </section>
+      
+      <section>
+        <h1>Applications web</h1>
+        <div class="block-element">
+          <header>
+            <h2>control-theory-plot-online</h2>
+            <a href="webapps/control-theory-plot-online/">Lancer l'application</a>
+          </header>
+          <article>
+            <p>Une application web permettant de tracer la réponse indicielle et le diagramme de Bode d'un système linéaire à partir de sa fonction de transfert saisie sous la forme num/den.</p>
+          </article>
+        </div>
+        <div class="block-element">
+          <header>
+            <h2>serial-communication-diagram-online</h2>
+            <a href="webapps/serial-communication-diagram-online/">Lancer l'application</a>
+          </header>
+          <article>
+            <p>Une application web permettant de tracer l'oscillogramme d'une communication série asynchrone qui transmet un caractère ASCII préalablement spécifié.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="block-element block-form">
+          <h1>Formulaire de contact</h1>
+          <form action="https://formspree.io/f/mbjpowen" method="POST">
+            <input class="input" type="text" name="name" placeholder="Nom" required >
+            <input class="input" type="email" name="_replyto" placeholder="E-mail" required>       
+            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+            <input type="submit" value="Envoyer">
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
