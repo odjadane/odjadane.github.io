@@ -22,6 +22,7 @@ body{
   background-color: #FFF;
   max-width: 256px;
   margin: 1em;
+  padding: 2px;
 }
 
 .app img{
@@ -41,7 +42,6 @@ body{
 
 .app a{
   text-decoration: none;
-  
 }
 
 .app:hover{
