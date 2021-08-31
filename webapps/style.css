@@ -63,6 +63,30 @@ body {
   background-color: #008080;
 }
 
+.app-icon-fourier {
+  background-image: url(fourier-series-demonstration/logo512.png);
+  background-color: #515C6B;
+}
+
+/***********/
+/* Footer */
+/**********/
+footer{
+  text-align: center;
+  color: #bbb;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+footer a{
+  text-decoration: none;
+  color: #999;
+}
+
+footer a:hover{
+  border-bottom: 1px solid #999;
+}
+
 @media screen and (min-device-width:700px) {
   body {
     max-width: 800px
