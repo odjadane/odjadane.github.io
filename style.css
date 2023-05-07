@@ -89,30 +89,6 @@ section h1 {
   margin: .2em 0
 }
 
-.block-form input, .block-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin: 0.2em 0em;
-  resize: vertical;
-  font-size: 2em;
-}
-
-.block-form input[type=submit] {
-  background-color: #DCDCDC;
-  color: #333;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 2em;
-}
-
-.block-form input[type=submit]:hover {
-  background-color: silver;
-}
-
 .block-language {
   text-align: center;
 }
@@ -130,6 +106,14 @@ section h1 {
 
 .block-language button:hover{
   background-color: silver
+}
+
+.pub-author {
+  font-weight: bold;
+}
+
+.pub-title {
+  font-style: italic;
 }
 
 @media screen and (min-device-width:700px) {
